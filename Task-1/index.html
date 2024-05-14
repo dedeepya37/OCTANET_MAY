@@ -1,1 +1,197 @@
 
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            /* scroll-behavior: smooth; */
+
+        }
+
+        section {
+            height: 100vh;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            overflow-x: hidden;
+
+        }
+
+        nav {
+            background-color: #333;
+            color: #ffffff;
+            padding: 10px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+
+        ul {
+            list-style-type: none;
+            display: flex;
+        }
+
+        li {
+            margin-right: 20px;
+        }
+
+        a {
+            text-decoration: none;
+            color: #fff;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+
+        a:hover {
+            color: #ffcc00;
+        }
+
+        .img1 {
+            float: right;
+            height: 530px;
+            width: 560px;
+        }
+
+        h1 {
+            font-size: 4rem;
+        }
+
+        h2 {
+            font-size: 3rem;
+        }
+
+        .home-pg {
+            float: left;
+            padding: 2rem;
+        }
+
+        .matter {
+            padding: 6rem;
+            font-size: 2.3rem;
+        }
+
+        button {
+            height: 40px;
+            width: 100px;
+            font-family: Arial, sans-serif;
+            font-size: 1rem;
+            /* color: #fff; */
+            background-color: rgb(29, 219, 188);;
+        }
+
+        .abu {
+            padding: 2rem;
+            margin-left: 2rem;
+        }
+
+        .aboutus {
+            padding: 1rem;
+            float: right;
+            height: 480px;
+            width: 600px;
+            font-size: 1.1rem;
+        }
+
+        .img2 {
+            width: 600px;
+        }
+
+        span {
+            color: rgb(29, 219, 188);
+        }
+
+        .container {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            gap: 20px;
+            padding: 1.5rem;
+        }
+
+        .box {
+            width: 400px;
+            height: 300px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .s{
+            background-color: #fff;
+        }
+    </style>
+</head>
+
+<body>
+    <section>
+        <nav>
+            <div class="logo">Logo</div>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#2">About</a></li>
+                <li><a href="#3">Services</a></li>
+            </ul>
+        </nav>
+        <img src="https://i.pinimg.com/736x/8c/11/4e/8c114ef2759b895083f4cd2886deb57f.jpg" class="img1">
+        <div class="home-pg">
+            <div CLass="matter">
+                <h1>EXPLORE</h1>
+                <h1>DREAM</h1>
+                <h1>DESTINATION</h1>
+                <button>Login</button>
+                <button class="s">SignUp</button>
+            </div>
+        </div>
+    </section>
+    <section id="2">
+        <div class="abu">
+            <h2>ABOUT <span>US</span> </h2>
+        </div>
+        <img src="https://img.freepik.com/free-vector/gradient-world-tourism-day-illustration_52683-129641.jpg"
+            class="img2">
+        <div class="aboutus">
+            <p>Traveling opens the doors to a world of exploration, adventure, and self-discovery. Whether it's
+                embarking on a
+                journey to a distant land or simply wandering through the streets of a nearby city, every trip holds the
+                promise
+                of new experiences and unforgettable memories.Stepping outside of our familiar surroundings allows us to
+                immerse
+                ourselves in different cultures, languages, and traditions. It's an opportunity to broaden our
+                perspectives,
+                gain a deeper understanding of the world, and connect with people from diverse backgrounds.Traveling
+                also encourages personal growth. It pushes us out of our comfort zones, challenges our preconceptions,
+                and fosters resilience as we navigate unfamiliar territories. It teaches us to adapt to unexpected
+                situations, embrace spontaneity, and find joy in the journey itself.
+
+                Moreover, travel is not just about exploring the external world; it's also about delving into our inner
+                landscapes. It offers moments of reflection, introspection, and introspection, enabling us to discover
+                more about ourselves, our passions, and our purpose in life.</p>
+        </div>
+    </section>
+    <section id="3">
+        <div class="abu">
+            <h2>OUR SERVICES</h2>
+        </div>
+        <div class="container">
+            <div class="box"><img
+                    src="https://img.veenaworld.com/wp-content/uploads/2023/09/Famous-Places-in-the-World-Checking-off-the-Ultimate-Bucket-List.jpg" height="300" width="400">
+                    </div>
+                <div class="box"><img src="https://www.holidify.com/images/bgImages/KASHMIR.jpg"height="300" width="400"></div>
+                <div class="box"><img src="https://i0.wp.com/www.tusktravel.com/blog/wp-content/uploads/2019/08/Srinagar-2.jpg?fit=800%2C600&ssl=1"height="300" width="400"></div>
+            </div>
+    </section>
+</body>
+
+</html>
